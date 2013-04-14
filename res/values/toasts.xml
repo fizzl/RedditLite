@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="could_not_initialize_ui">Could not initialize user interface.</string>
+    <string name="problem_parsing_data">There was a problem parsing data from Reddit. Try again later.</string>
+    
+</resources>

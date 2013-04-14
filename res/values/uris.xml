@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uriHot">http://www.reddit.com/hot.json</string>
+    <string name="uriTop">http://www.reddit.com/top.json</string>
+    <string name="uriNew">http://www.reddit.com/new.json</string>
+    
+</resources>
