@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reddit Lite</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_post_list">Posts</string>
+    <string name="title_post_detail">Post Detail</string>
+    <string name="remember_me">Remember me</string>
+    <string name="promt_username">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="ok">OK</string>
+    
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error">Error</string>
+    <string name="could_not_connect">Couldn\'t connect to Reddit</string>
+    <string name="weird_data">Weird data from Reddit.</string>
+    <string name="login_failed">Login failed. Check username and password.</string>
+    
+</resources>
