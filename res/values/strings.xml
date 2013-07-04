@@ -10,6 +10,8 @@
     <string name="promt_username">Username</string>
     <string name="sign_in">Sign In</string>
     <string name="ok">OK</string>
+    <string name="dummy"></string>
+    <string name="thumbnail">Thumbnail</string>
     
 
 </resources>

@@ -14,6 +14,7 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.HttpProtocolParams;
@@ -24,6 +25,9 @@ import android.content.pm.PackageManager.NameNotFoundException;
 public class SynchronousHttpClient {
 	public SynchronousHttpClient(Context context) {
 		this.context = context;
+		RedditAuthStore authStore = new RedditAuthStore(context);
+		Cookie cookie = authStore.getAuthCookie();
+		cookieStore.addCookie(cookie);
 		client.setCookieStore(cookieStore);
 		String packageName = context.getPackageName();
 		String version;
